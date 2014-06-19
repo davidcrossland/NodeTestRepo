@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'os' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json http@0.0.0 http is also the name of a node core module.
+6 warn package.json http@0.0.0 No description
+7 warn package.json http@0.0.0 No repository field.
+8 warn package.json path@0.4.9 path is also the name of a node core module.
+9 verbose cache add [ 'os', null ]
+10 verbose cache add name=undefined spec="os" args=["os",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'os',
+11 verbose parsed url   path: 'os',
+11 verbose parsed url   href: 'os' }
+12 silly lockFile 999a3419-os os
+13 verbose lock os C:\Users\david\AppData\Roaming\npm-cache\999a3419-os.lock
+14 silly lockFile 999a3419-os os
+15 silly lockFile 999a3419-os os
+16 verbose addNamed [ 'os', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 46c56d42-os os@
+19 verbose lock os@ C:\Users\david\AppData\Roaming\npm-cache\46c56d42-os.lock
+20 silly addNameRange { name: 'os', range: '*', hasData: false }
+21 verbose url raw os
+22 verbose url resolving [ 'https://registry.npmjs.org/', './os' ]
+23 verbose url resolved https://registry.npmjs.org/os
+24 info trying registry request attempt 1 at 11:38:06
+25 http GET https://registry.npmjs.org/os
+26 http 404 https://registry.npmjs.org/os
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Tue, 17 Jun 2014 10:38:11 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-lo80-LHR',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1403001490.937675,VS0,VE155',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 46c56d42-os os@
+29 silly lockFile 46c56d42-os os@
+30 error 404 'os' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Windows_NT 6.2.9200
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "os"
+33 error cwd C:\Users\david\Work\elastacloud\node\ExpressNodeJsApp
+34 error node -v v0.10.25
+35 error npm -v 1.3.24
+36 error code E404
+37 verbose exit [ 1, true ]
